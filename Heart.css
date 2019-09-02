@@ -1,0 +1,153 @@
+html{ 
+height: 100%; }
+
+body{
+	background-image: url(Images/RedSatin.jpg);
+	background-size: cover; 
+	background-position: center;  
+	font-family: 'Open Sans', 'Times New Roman', sans-serif;
+}
+
+
+#TransBox {
+	background: rgba(255, 255, 255, 0.7);
+	max-width: 100%; 
+	margin-top: 1.5%; 
+	margin-bottom: 1.5%;
+}
+
+
+#HomeTransBox {
+	background: rgba(255, 255, 255, 0.7);
+	max-width: 100%; 
+	margin-top: 10%; 
+	margin-bottom: 10%;
+	padding-top: 1.5%; 
+
+}
+
+
+#HOG_LogoWords {
+	max-width: 25rem; 
+	height: auto;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1%; 
+	
+}
+
+
+/*#HOG_LogoWords_HomeVersion {
+	max-width: 25rem;  
+	height: auto; 
+	
+} */ 
+
+#PastorsPhoto{
+	max-width: 50%;
+	height: auto;  
+}
+
+.navbar{ 
+	padding: 0;
+	block: inline;
+  	 display: flex;
+ 	justify-content: space-around;
+ }
+
+
+ #ChurchMap{
+ 	border:0; 
+    height:100%;
+    width:100%;
+
+ }
+
+ #ChurchMap iframe{
+        width: 100%; 
+ 		padding-top: 2%;
+ 		padding-bottom: 3%; 
+         
+ }
+#JoinUs{
+	padding-top: 5%;
+ 	/*padding-left: 30%;*/
+}
+
+ #Contact{
+ 	padding-top: 2%;
+ 	padding-left: 30%; 
+ }
+
+
+
+/*#HomeCenter{
+	align-items: center; 
+	padding-top: 20%;
+	padding-bottom: 20%; 
+ 
+} */
+
+
+ul {
+  list-style-type: none;
+ }
+
+hr {
+	width: 100%; 
+	border: 0;
+    height: 4px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255,255,255, 100), rgba(0, 0, 0, 0));
+
+}
+p {
+	font-size: 1rem; 
+}
+
+h1{ 
+	font-size: 2rem; 
+ }
+/* unvisited link */ 
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* unvisited link 
+a:link {
+  color: ;
+}
+
+*/
+
+
+/* selected link 
+a:active {
+  color: yellow;
+}
+
+*/
