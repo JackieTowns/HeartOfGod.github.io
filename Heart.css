@@ -4,14 +4,16 @@ height: 100%; }
 body{
 	background-image: url(Images/RedSatin.jpg);
 	background-size: cover; 
-	background-position: center;  
+	background-position: center; 
+	background-attachment: fixed; 
 	font-family: 'Open Sans', 'Times New Roman', sans-serif;
 }
 
 
 #TransBox {
 	background: rgba(255, 255, 255, 0.7);
-	max-width: 100%; 
+	max-width: 100%;
+	min-width: 10%;   
 	margin-top: 1.5%; 
 	margin-bottom: 1.5%;
 }
@@ -28,12 +30,12 @@ body{
 
 
 #HOG_LogoWords {
-	max-width: 25rem; 
+	max-width: 30rem; 
 	height: auto;
 	display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 1%; 
+  	margin-left: auto;
+  	margin-right: auto;
+  	margin-top: 1%; 
 	
 }
 
@@ -47,6 +49,12 @@ body{
 #PastorsPhoto{
 	max-width: 50%;
 	height: auto;  
+}
+
+#scripture{
+	font-style: italic;
+	width: 70%; 
+
 }
 
 .navbar{ 
